@@ -1,0 +1,105 @@
+---                                                                                                                                                          
+layout: post
+title: 我的Ubuntu
+category: linux
+#published: false
+---
+我安装的Ubuntu版本是10.04，代号Lucid，32位，以下为安装后的配置过程
+
+h2. 安装升级
+
+h3. 基本安装
+
+pre. 
+#换源，试来试去，还是台湾的源最快
+sudo wget https://gist.github.com/raw/352828/ca1d292be9a10fe01b7e0b72d65a74b781683311/sources.list -O /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get upgrade
+#ibus输入法，比Fcitx好用
+sudo add-apt-repository ppa:shawn-p-huang/ppa 
+sudo apt-get update
+sudo apt-get install ibus-gtk ibus-pinyin ibus-pinyin-db-open-phrase ibus-table-wubi
+im-switch -s ibus
+#chrome浏览器
+sudo apt-get install chromium-browser
+
+h3. 开发安装
+
+虽然我已经把项目移至虚拟化开发环境中，但有些小项目还是需要在宿主机开发的，所以本地的基础开发环境还是要建立，而像mongodb、redis、nginx这些就不要再安装了，通通移至虚拟机
+
+pre. 
+#git
+sudo apt-get install git-core openssl
+#rvm
+bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+rvm install 1.9.2
+rvm 1.9.2 --default
+#or sometimes we will get:no such file to load -- openssl (LoadError)
+cd ~/.rvm/src/ruby-1.9.2-*/ext/openssl
+ruby extconf.rb
+make && make install
+#irb should support readline. rmagick need.
+sudo apt-get install ncurses-dev libreadline6 libreadline-dev graphicsmagick libmagick9-dev
+cd ~/.rvm/src/ruby-1.9.2-*/ext/readline
+ruby extconf.rb
+make && make install
+#vim编辑神器
+sudo apt-get install vim vim-ruby
+
+h2. 基本配置
+
+h3. 关闭特效
+
+用于开发的机子当然是性能优先了
+
+右击桌面-[Change Desktop BackGround]-[Visual Effects]
+选中[None]
+
+h3. 自动隐藏任务栏
+
+自动隐藏顶端及底端的任务栏，使浏览器及编辑器的窗口可显示的空间最大化
+
+右击任务栏-[Properties]-[General]
+选中[Autohide]
+
+h3. 自动记忆
+
+关机时已经打开了哪些程序（浏览器、包括terminal中的各个tab），重新开机后会自动打开。
+[System]-[Perferences]-[Startup Applications]-[Options]
+勾选[Automatically remember running applications when logging out]
+
+顺便把[Startup Programs]中不需要开机启动的程序关闭掉，如Bluetooth Manager
+
+h2. Shell
+
+!/images/article/ubuntu/zsh.png!
+
+安装终极Shell zsh，拥有更强的补全功能(常用工具的参数补全)
+
+pre. 
+sudo apt-get install zsh
+#引入增强插件,支持git,rails等补全，可选多种外观皮肤
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+#zsh作为默认shell，重启后生效
+chsh -s /bin/zsh
+
+修改zsh配置，定义需要引入的插件，修改 @~/.zshrc@ 的plugins值为:
+
+bq. 
+plugins=(command-not-found git rails ruby vagrant)
+
+"zsh外观皮肤大全":https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+"zsh插件大全":https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
+
+具体有哪些补全功能呢，可以查看列表
+
+pre. 
+#-h不列出文件名
+grep -h -r -e '^alias' ~/.oh-my-zsh
+
+h2. 浏览器
+
+h2. 参考资源
+
+"Ubuntu中文wiki":http://wiki.ubuntu.org.cn/Qref/Source
+"Ibus install":http://code.google.com/p/ibus/wiki/Ubuntu
