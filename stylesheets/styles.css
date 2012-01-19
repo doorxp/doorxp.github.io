@@ -81,6 +81,9 @@ h1 a, h2 a, h3 a {
 	text-decoration: none;
 	font-style: italic;
 }
+a.XX:link, a.XX:visited {
+color:#6D9D30;
+}
 
 a:link, a:visited {
 color:#6D9D30;
