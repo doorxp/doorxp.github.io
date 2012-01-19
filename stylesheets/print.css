@@ -5,7 +5,7 @@ body {
   font-size : 12pt; 
 }
 
-a { 
+a.XX { 
   text-decoration : underline; 
   color : #0000ff; 
 }
