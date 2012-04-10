@@ -9,4 +9,6 @@ test2
 * at
 * ta
 
+--itest
+-test
 
