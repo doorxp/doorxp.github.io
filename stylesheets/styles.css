@@ -300,3 +300,8 @@ text-decoration: underline;
 footer p {
 margin-top: -2px;
 }
+
+p a
+{
+	float:right;
+}
