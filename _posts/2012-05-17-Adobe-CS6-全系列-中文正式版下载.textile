@@ -1,0 +1,485 @@
+---
+layout: post
+title: Adobe CS6 全系列 中文正式版下载
+category: Adobe
+---
+
+更新mac全系列迅雷快盘下载：
+
+资源列表
+http://kuai.xunlei.com/s/-IzC-oi-a1VSQ-l-2tP7Kg
+
+Photoshop
+http://kuai.xunlei.com/d/KRMPKRWAQKWY（简/繁/韩）
+
+Illustrator
+http://kuai.xunlei.com/d/KOPEHSTQMOYI（简/繁/韩）
+
+InCopy
+http://kuai.xunlei.com/d/KSXRADXFSNLL（简/繁/韩）
+
+InDesign
+http://kuai.xunlei.com/d/KPKGILVQHGGD（简/繁/韩）
+
+Premiere Pro
+http://kuai.xunlei.com/d/KXDLWEOSXYTI（多国语言）
+
+After Effects
+http://kuai.xunlei.com/d/KHMORZSRJYZX（多国语言）
+
+Audition
+http://kuai.xunlei.com/d/KPNFEGBABQXG（多国语言）
+
+Design Standard
+http://kuai.xunlei.com/d/KKAFDDDXUPLE（简/繁/韩）
+
+Production Premium
+http://kuai.xunlei.com/d/KCCDXSTQPEXH（多国语言）
+
+Master Collection
+http://kuai.xunlei.com/d/KNSVTEUHGXMO（韩）
+http://kuai.xunlei.com/d/KBXUJMKVUJFD（英/日）
+
+更新：大师版无中文，是韩语版的不要下载
+
+更新mac cs6全系列 破解补丁（来自远景论坛）
+http://kuai.xunlei.com/d/KPWSMWYNVPEC
+
+另外附上两个SN，均用于Master Collection：
+1325-0949-2080-9819-3777-3230
+1325-0160-5283-9851-2671-8951
+注意，SN也要配合amtlib和断网使用，否则无效！
+
+
+破解方法：
+
+你需要具备的软件：Little Snitch
+1、首先下载破解补丁（见后面的附件）；
+2、下载试用版的Adobe CS6组件；
+3、启动安装程序，当Little Snitch询问是否允许连接的时候，禁用所有连接请求！
+4、安装程序，当要求登录到Adobe ID时，由于你已经禁用了连接请求，连接会失败，这个时候选择“Connect Later”；注意，如果你之前已经装过CS6的该组件，并且当时用Adobe ID登录了，请卸载重装，在安装程序要求登录的时候，选择“This is not my Adobe account”，然后选择“Connect Later”！
+5、安装完成后，进入“应用程序”文件夹，找到你的组件，例如“应用程序/Adobe Photoshop CS6/Adobe Photoshop CS6.app”。右击“.app”程序，选择“显示包内容”，进入Contents，Frameworks，把附件解压得到的“amtlib.framework”拷贝到该目录下覆盖同名内容。
+6、享受CS6吧！别忘了使用Little Snitch禁用CS6组件的连接请求！
+
+说明：
+有些朋友可能发现illustrator还有tryout的字样，对，我的也有，但这不代表破解是无效的。如果你不喜欢那个tryout字样，可以尝试输入SN的方式（Master Collection ONLY），还可以进入Adobe Illustrator CS6.app/Contents/Resources/，用该目录下的“ai_cs6_splash.png”替换掉“ai_cs6_splash_tryout.png”。
+该方法已经经过时钟调整至2015年的验证，破解有效。
+
+以上皆来自远景论坛
+
+Adobe正式宣布了新一代面向设计、网络和视频领域的终极专业套装“Creative Suite 6”(简称CS6)，包含四大套装和十四个独立程序。与此同时，Adobe还发布了订阅式云服务“Creative Cloud”(创意云)，可让用户下载安装任何一款CS6程序。
+
+
+
+Adobe CS6 四大套装：
+－ CS6 Design Standard (设计标准版)
+－ CS6 Design & Web Premium (设计与网络高级版)
+－ CS6 Production Premium (产品高级版)
+－ CS6 Master Collection (大师典藏版)
+
+Adobe CS6独立程序：
+－ Photoshop CS6
+－ Photoshop CS6 Extended
+－ Illustrator CS6
+－ InDesign CS6
+－ Acrobat X Pro
+－ Flash Professional CS6
+－ Flash Builder 4.6 Premium Edition
+－ Dreamweaver CS6
+－ Fireworks CS6
+－ Premiere Pro CS6
+－ After Effects CS6
+－ Audition CS6
+－ SpeedGrade CS6
+－ Prelude CS6
+－ Encore CS6
+－ Bridge CS6
+－ Media Encoder CS6
+
+软件下载：  
+
+1.注册一个Adobe ID
+2.随便下载一个产品的试用版（需要这一步产生的Cookie，否则直接复制下面的链接不能下）
+3.按照下面的语言下载所需版本（复制到地址栏下载，速度还行；迅雷目前没速度，可能没资源）
+安装的时候请先断开网络
+
+Photoshop CS6
+Language ISO code: en_US / en_GB
+Win: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.7z
+Win: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.exe
+Mac: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.exe
+Mac: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS6.dmg
+
+
+
+
+
+
+Illustrator CS6
+Language ISO code: en_US / en_GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS6.dmg
+
+
+
+
+
+
+InDesign CS6
+Language ISO code: en_US / en_GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS6.dmg
+
+
+
+
+
+
+InCopy CS6
+Language ISO code: en_US / en_GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS6.dmg
+
+
+
+
+
+
+Dreamweaver CS6
+Language ISO code: en_US / en_GB
+Win: t http://rials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS6.dmg
+
+
+
+
+
+
+Flash Professional CS6
+Language ISO code: en_US / en_GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW
+Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
+Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
+Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS6.dmg
+
+
+
+
+
+
+Premiere CS6
+Multi-Language
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/osx10/PremierePro_6_LS7.dmg
+
+
+
+
+
+
+After Effects CS6
+Multi-Language
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/osx10-64/AfterEffects_11_LS7.dmg
+
+
+
+
+
+
+Production Premium CS6 高级版：
+Multi-Language - Win: 5.83 GB / Mac: 5.50 GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/osx10/ProductionPremium_CS6_LS7.dmg
+
+
+
+
+
+
+Master Collection CS6
+Language ISO code: en_US / en_GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS1.dmg
+
+
+Language ISO code: ja_JP
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS2.dmg
+
+
+Language ISO code: ko_KR / zh_CN / zh_TW - Win: 5.86 GB / Mac: 5.63 GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS3.dmg
+
+
+Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE - Win: 8.45 GB / Mac: 8.14 GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS4.dmg
+
+
+Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA - Win: 7.62 GB / Mac: 7.49 GB
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.7z
+Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.exe
+Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS6.dmg
+
+Photoshop CS6（pc） 简体中文版 115网盘下载：
+
+http://115.com/file/c2ufxtja#
+http://115.com/file/e73mqi9b#
+
+
+迅雷快传下载：http://kuai.xunlei.com/s/kiHwRg10fWlrx88PONrOCg
+
+pc cs6通用补丁
+amtlib.zip (1675 K) 下载次数:1301
+此补丁包含32位和64位，补丁安装前务必先运行一次程序
+
+
+Adobe官方终于宣布正式发布Adobe CS6正式版 (Creative Suite 6终极设计套装)，Adobe CS6正式版包含四大套装和十四个独立程序，如：设计标准版，设计与网络高级版，大师典藏版，产品高级版，同时还发布了创意云(Creative Cloud)服务，可以让用户下载任意Adobe CS6产品。
+
+
+
+Adobe CS6正式版包含的产品：
+Adobe CS6正式版套装：
+
+设计标准版 CS6 (Design Standard CS6)
+
+设计与网络高级版 CS6 (Design & Web Premium CS6)
+
+产品高级版 CS6 (Production Premium CS6)
+
+大师典藏版 CS6 (Master Collection CS6)
+
+Adobe CS6正式版独立软件：
+
+Photoshop CS6
+Photoshop CS6 Extended
+Illustrator CS6
+InDesign CS6
+Acrobat X Pro
+Flash Professional CS6
+Flash Builder 4.6 Premium Edition
+Dreamweaver CS6
+Fireworks CS6
+Premiere Pro CS6
+After Effects CS6
+Audition CS6
+SpeedGrade CS6
+Prelude CS6
+Encore CS6
+Bridge CS6
+Media Encoder CS6
+
+Photoshop CS6介绍：
+Creative Suite 6终极设计套装，做为整个套装的灵魂，Photoshop CS6、Photoshop CS6 Extended自然是大家最为关注的。Adobe宣称，得益于Adobe Mercury Graphics Engine图形引擎，用户可以在新版中感受到“不可思议的性能”，使用任何编辑工具都可以即时得到结果，比如液化、操纵变形、光照效果等等。
+
+
+
+－ 新设计的灰暗色用户界面(可自定义)
+－ 拓展的内容感知技术群，新增内容感知修补、内容感知移动
+－ 全新的裁剪工具
+－ 更丰富的文字各式
+－ 新的矢量图层
+－ 新的图案样式(Scripted Patterns)
+－ 支持创建、编辑和增强视频
+－ 适应性宽角度滤镜
+－ 新的模糊效果
+－ 整合Adobe Camera Raw 7
+－ 丰富的画笔工具集
+－ Mercury Graphics Engine for 3D图形引擎
+－ 3D内容控制与效果
+－ 增强的工作流(仅限Photoshop Extended版本)
+
+Illustrator CS6介绍：
+Illustrator CS6也重新设计了更为现代化的用户界面，特性方面包括新的图像追踪引擎、简单的图案创建、笔画斜度等等，特别是Mercury Performance System带来了更快的速度和更强的稳定性，并支持64位的Windows、Mac OS X操作系统。
+
+
+
+InDesign CS6介绍：
+InDesign CS6加入了新的Adaptive Design Tools(适应性设计工具)，包括Alternate Layout(交互布局)、Liquid Layout(液体布局)、Content Collector Tools(内容收集工具)、Linked Content(关联内容)等等，简化多层内容的创建。
+
+
+
+Adobe Muse介绍：
+Adobe Muse是一个刚宣布的全新工具，可以让设计师无需编写代码就能创建、发布HTML5 Web网站。
+
+Flash Professional CS6介绍：
+Flash Professional CS6用户可以使用CreateJS Flash专业工具包进行HTML5的翻译和转换，游戏体验的创建也大大增强，还能创建改进工作流和性能的Sprite Sheet。利用最新的Adobe Flash Player、AIR Runtimes，可以更轻松地开发Android、iOS设备应用。
+
+
+
+Dreamweaver CS6介绍：
+Dreamweaver CS6用户无需再手动为手机、平板机、台式机分别单独创建基于CSS的界面，取而代之的是所谓的Fluid Grid Layouts，而借助直接整合的新服务PhoneGap Build，用户可为多个平台开发原生移动应用。
+
+
+
+Premiere Pro CS6介绍：
+Premiere Pro CS6拥有更简洁高效的新式编辑环境，Adobe Mercury Playback Engine播放引擎也加入了对OpenCL、MacBook Pro的支持。
+
+
+
+After Effects CS6介绍：
+After Effects CS6号称是该软件近十年来最大的一次进步，速度和响应度都更快，而且还有Global Performance Cache(全局性能缓存)，可以即时保存预览，再大的对象也能随时应付。产品高级套装里新增了Adobe Prelude CS6、Adobe SpeedGrade，前者可以简化后期制作的工作流，而后者包含强大的后期修补工具，包括电影修补、调色等等。
+
+
+
+Audition CS6介绍：
+Audition CS6加速了音频的后期制作，比如简单快速匹配音频编辑的实时片段拉伸，以及引入强大的自动对话分析新引擎的自动语音组合(Automatic Speech Alignment)等等。
+
+
+
+Adobe Mercury Transmit介绍：
+Adobe Mercury Transmit是新的第三方硬件加速API，可以通过AJA、Blackmagic Design、Matrox等的第三方视频卡，为任何视频格式和编解码器提供更多实时特效。
+
+Adobe CS6正式版价格：
+价格方面，设计标准版、设计与网络高级版、产品高级版、大师典藏版四大套装分别要1299美元、1899美元、1899美元、2599美元，旧版升级价275美元、375美元、375美元、525美元。
+
+Photoshop CS6、Photoshop CS6 Extended分别要699美元、999美元，旧版升级价199美元、399美元。如果按年度、月度订阅，则每月需要19.99美元、29.99美元——这是Adobe第一次引入订购模式，颠覆了以往的传统，堪称另一个“里程碑”。
+
+Creative Cloud年度、月度订阅用户每月分别要49.99美元、74.99美元，CS3/4/5/5.5用户优惠价29.99美元每月。
+
+Adobe CS6全系列产品和Creative Cloud云服务将于30天内全球上市，其中后者会出现在36个国家并支持多种语言。
