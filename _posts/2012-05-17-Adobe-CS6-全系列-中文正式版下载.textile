@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adobe CS6 全系列 中文正式版下载
+title: "Adobe CS6 全系列 中文正式版下载"
 category: Adobe
 ---
 
