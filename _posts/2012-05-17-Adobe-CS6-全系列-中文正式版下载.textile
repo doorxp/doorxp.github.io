@@ -7,43 +7,43 @@ category: Adobe
 更新mac全系列迅雷快盘下载：
 
 资源列表
-http://kuai.xunlei.com/s/-IzC-oi-a1VSQ-l-2tP7Kg
+* "http://kuai.xunlei.com/s/-IzC-oi-a1VSQ-l-2tP7Kg":http://kuai.xunlei.com/s/-IzC-oi-a1VSQ-l-2tP7Kg
 
 Photoshop
-http://kuai.xunlei.com/d/KRMPKRWAQKWY（简/繁/韩）
+* "http://kuai.xunlei.com/d/KRMPKRWAQKWY":http://kuai.xunlei.com/d/KRMPKRWAQKWY （简/繁/韩）
 
 Illustrator
-http://kuai.xunlei.com/d/KOPEHSTQMOYI（简/繁/韩）
+* "http://kuai.xunlei.com/d/KOPEHSTQMOYI":http://kuai.xunlei.com/d/KOPEHSTQMOYI （简/繁/韩）
 
 InCopy
-http://kuai.xunlei.com/d/KSXRADXFSNLL（简/繁/韩）
+* "http://kuai.xunlei.com/d/KSXRADXFSNLL":http://kuai.xunlei.com/d/KSXRADXFSNLL （简/繁/韩）
 
 InDesign
-http://kuai.xunlei.com/d/KPKGILVQHGGD（简/繁/韩）
+* "http://kuai.xunlei.com/d/KPKGILVQHGGD":http://kuai.xunlei.com/d/KPKGILVQHGGD （简/繁/韩）
 
 Premiere Pro
-http://kuai.xunlei.com/d/KXDLWEOSXYTI（多国语言）
+* "http://kuai.xunlei.com/d/KXDLWEOSXYTI":http://kuai.xunlei.com/d/KXDLWEOSXYTI （多国语言）
 
 After Effects
-http://kuai.xunlei.com/d/KHMORZSRJYZX（多国语言）
+* "http://kuai.xunlei.com/d/KHMORZSRJYZX":http://kuai.xunlei.com/d/KHMORZSRJYZX （多国语言）
 
 Audition
-http://kuai.xunlei.com/d/KPNFEGBABQXG（多国语言）
+* "http://kuai.xunlei.com/d/KPNFEGBABQXG":http://kuai.xunlei.com/d/KPNFEGBABQXG （多国语言）
 
 Design Standard
-http://kuai.xunlei.com/d/KKAFDDDXUPLE（简/繁/韩）
+* "http://kuai.xunlei.com/d/KKAFDDDXUPLE":http://kuai.xunlei.com/d/KKAFDDDXUPLE （简/繁/韩）
 
 Production Premium
-http://kuai.xunlei.com/d/KCCDXSTQPEXH（多国语言）
+* "http://kuai.xunlei.com/d/KCCDXSTQPEXH":http://kuai.xunlei.com/d/KCCDXSTQPEXH （多国语言）
 
 Master Collection
-http://kuai.xunlei.com/d/KNSVTEUHGXMO（韩）
-http://kuai.xunlei.com/d/KBXUJMKVUJFD（英/日）
+* "http://kuai.xunlei.com/d/KNSVTEUHGXMO":http://kuai.xunlei.com/d/KNSVTEUHGXMO （韩）
+* "http://kuai.xunlei.com/d/KBXUJMKVUJFD":http://kuai.xunlei.com/d/KBXUJMKVUJFD （英/日）
 
 更新：大师版无中文，是韩语版的不要下载
 
 更新mac cs6全系列 破解补丁（来自远景论坛）
-http://kuai.xunlei.com/d/KPWSMWYNVPEC
+* "http://kuai.xunlei.com/d/KPWSMWYNVPEC":http://kuai.xunlei.com/d/KPWSMWYNVPEC
 
 另外附上两个SN，均用于Master Collection：
 1325-0949-2080-9819-3777-3230
@@ -105,33 +105,33 @@ Adobe CS6独立程序：
 
 Photoshop CS6
 Language ISO code: en_US / en_GB
-Win: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.7z
-Win: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.exe
-Mac: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.7z":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.exe
-Mac: http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS2.dmg
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.7z":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.7z
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS3.dmg
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.7z":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.7z
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS3.exe
+Mac:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS4.dmg
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.7z":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.7z
+Win:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS4.exe
+Mac:  "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.7z":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/win32/Photoshop_13_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS6.dmg
 
 
 
@@ -140,33 +140,33 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/PHSP/13/osx10/Photoshop_13_LS
 
 Illustrator CS6
 Language ISO code: en_US / en_GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.7z":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.7z":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.7z":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.7z":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.7z":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/win32/Illustrator_16_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_LS6.dmg
 
 
 
@@ -175,33 +175,33 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/ILST/16/osx10/Illustrator_16_
 
 InDesign CS6
 Language ISO code: en_US / en_GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.7z":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.7z":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.7z":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.7z":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.7z":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/win32/InDesign_8_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS6.dmg
 
 
 
@@ -210,33 +210,33 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/IDSN/8/osx10/InDesign_8_LS6.d
 
 InCopy CS6
 Language ISO code: en_US / en_GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.7z":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.7z":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.7z":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.7z":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.7z":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/win32/InCopy_8_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS6.dmg
 
 
 
@@ -245,28 +245,28 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/AICY/8/osx10/InCopy_8_LS6.dmg
 
 Dreamweaver CS6
 Language ISO code: en_US / en_GB
-Win: t http://rials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS1.dmg
+Win: t"http://rials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS1.exe":http://rials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/win32/Dreamweaver_12_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_LS6.dmg
 
 
 
@@ -275,28 +275,28 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/DRWV/12/osx10/Dreamweaver_12_
 
 Flash Professional CS6
 Language ISO code: en_US / en_GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW
-Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE
-Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA
-Win:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/win32/FlashPro_12_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS6.dmg
 
 
 
@@ -305,9 +305,9 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/FLPR/12/osx10/FlashPro_12_LS6
 
 Premiere CS6
 Multi-Language
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/osx10/PremierePro_6_LS7.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.7z":http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.exe":http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/win32/PremierePro_6_LS7.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/osx10/PremierePro_6_LS7.dmg":http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/osx10/PremierePro_6_LS7.dmg
 
 
 
@@ -316,9 +316,9 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/PPRO/6/osx10/PremierePro_6_LS
 
 After Effects CS6
 Multi-Language
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/osx10-64/AfterEffects_11_LS7.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.7z":http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.exe":http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/win64/AfterEffects_11_LS7.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/osx10-64/AfterEffects_11_LS7.dmg":http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/osx10-64/AfterEffects_11_LS7.dmg
 
 
 
@@ -327,9 +327,9 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/AEFT/11/osx10-64/AfterEffects
 
 Production Premium CS6 高级版：
 Multi-Language - Win: 5.83 GB / Mac: 5.50 GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/osx10/ProductionPremium_CS6_LS7.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.7z":http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.exe":http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/win32/ProductionPremium_CS6_LS7.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/osx10/ProductionPremium_CS6_LS7.dmg":http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/osx10/ProductionPremium_CS6_LS7.dmg
 
 
 
@@ -338,41 +338,40 @@ Mac:  http://trials2.stage.adobe.com/AdobeProducts/STVD/CS6/osx10/ProductionPrem
 
 Master Collection CS6
 Language ISO code: en_US / en_GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS1.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.7z":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.exe":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS1.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS1.dmg":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS1.dmg
 
 
 Language ISO code: ja_JP
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS2.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.7z":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.exe":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS2.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS2.dmg":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS2.dmg
 
 
 Language ISO code: ko_KR / zh_CN / zh_TW - Win: 5.86 GB / Mac: 5.63 GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS3.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.7z":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.exe":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS3.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS3.dmg":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS3.dmg
 
 
 Language ISO code: da_DK / de_DE / es_ES / es_MX / fi_FI / fr_CA / fr_FR / it_IT / nb_NO / nl_NL / pt_BR / sv_SE - Win: 8.45 GB / Mac: 8.14 GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS4.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.7z":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.exe":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS4.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS4.dmg":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS4.dmg
 
 
 Language ISO code: cs_CZ / hu_HU / pl_PL / ro_RO / ru_RU / tr_TR / uk_UA - Win: 7.62 GB / Mac: 7.49 GB
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.7z
-Win:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.exe
-Mac:  http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS6.dmg
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.7z":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.7z
+Win: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.exe":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/win32/MasterCollection_CS6_LS6.exe
+Mac: "http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS6.dmg":http://trials2.stage.adobe.com/AdobeProducts/STAM/CS6/osx10/MasterCollection_CS6_LS6.dmg
 
 Photoshop CS6（pc） 简体中文版 115网盘下载：
+"http://115.com/file/c2ufxtja#":http://115.com/file/c2ufxtja#
+"http://115.com/file/e73mqi9b#":http://115.com/file/e73mqi9b#
 
-http://115.com/file/c2ufxtja#
-http://115.com/file/e73mqi9b#
 
-
-迅雷快传下载：http://kuai.xunlei.com/s/kiHwRg10fWlrx88PONrOCg
+迅雷快传下载："http://kuai.xunlei.com/s/kiHwRg10fWlrx88PONrOCg":http://kuai.xunlei.com/s/kiHwRg10fWlrx88PONrOCg
 
 pc cs6通用补丁
 amtlib.zip (1675 K) 下载次数:1301
