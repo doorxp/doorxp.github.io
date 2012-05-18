@@ -239,14 +239,23 @@ color: #000;
 aside section {
 margin: 10px 0 0 0;
 padding: 10px 10px;
+border-width:1px;
+border-style:solid;
 background-color: #F5E9DF;
-
+border-color:silver;
 /* curved border radius */
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 box-shadow: 3px 3px 5px #888888;
 margin-bottom:5px;
 margin-right:5px;
+}
+
+aside section:hover
+{
+	border-color:#c00;
+	border-width:1px;
+	border-style:solid;
 }
 
 aside section ul {
