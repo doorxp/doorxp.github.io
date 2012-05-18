@@ -1,6 +1,6 @@
 ---
 layout: post
-title: centos 5.2 用 pptpd 架设并配置 vpn ,实现多公网IP拨入那个出口为那个
+title: "centos 5.2 用 pptpd 架设并配置 vpn ,实现多公网IP拨入那个出口为那个"
 category: Apple
 ---
 
