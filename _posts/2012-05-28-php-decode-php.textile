@@ -4,7 +4,8 @@ title: "php decode encode php"
 category: php
 ---
 
-今天在学习一个ThinkPHP框架——sgcms时，发现一个文件被加密。
+今天在学习一个ThinkPHP框架——sgcms时，发现一个文件被加密
+
 bc.. <?php
 // This file is protected by sgcms & provided under license.
 Copyright(C) 2007-2010 www.sgcms.cn, All rights reserved.
@@ -63,7 +64,6 @@ $Secret=substr($lines[2],$str_length);
 echo "<?php\n".base64_decode(strtr($Secret,$decode_key,
 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/')).
 "?>";
+?>
 
 p. 
- 
-?>
