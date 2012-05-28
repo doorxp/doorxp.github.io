@@ -36,7 +36,7 @@ bc.. <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 </html>
 
 
-p. With these all uploaded to your server all you need to do is point people at the index file and they can select the links to install the provisioning profile and app directly from mobile safari on their iOS devices. A much nicer experience compared to installing through the iTunes sync process.
+p.With these all uploaded to your server all you need to do is point people at the index file and they can select the links to install the provisioning profile and app directly from mobile safari on their iOS devices. A much nicer experience compared to installing through the iTunes sync process.
 
 UPDATE
 
