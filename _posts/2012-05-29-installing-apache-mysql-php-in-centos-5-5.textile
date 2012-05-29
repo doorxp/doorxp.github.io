@@ -62,7 +62,6 @@ Install PhpMyAdmin
 @cd /var/www/html@
 
 bc. wget http://downloads.sourceforge.net/project/phpmyadmin/phpMyAdmin/3.3.6/phpMyAdmin-3.3.6-english.tar.gz?r=http%3A%2F%2Fwww.phpmyadmin.net%2Fhome_page%2Fdownloads.php&ts=1283745912&use_mirror=voxel
-
 tar zxvf phpMyAdmin-3.3.6-english.tar.gz
 mv phpMyAdmin-3.3.6-english phpmyadmin
 cd phpmyadmin
