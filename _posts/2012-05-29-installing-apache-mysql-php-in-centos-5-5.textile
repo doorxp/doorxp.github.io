@@ -60,6 +60,7 @@ now run
 Install PhpMyAdmin
 
 @cd /var/www/html@
+
 bc. wget http://downloads.sourceforge.net/project/phpmyadmin/phpMyAdmin/3.3.6/phpMyAdmin-3.3.6-english.tar.gz?r=http%3A%2F%2Fwww.phpmyadmin.net%2Fhome_page%2Fdownloads.php&ts=1283745912&use_mirror=voxel
 
 tar zxvf phpMyAdmin-3.3.6-english.tar.gz
@@ -70,6 +71,6 @@ cp config.sample.inc.php config.inc.php
 p. Edit config.inc.php for random string $cfg['blowfish_secret'] = ‘RandomStringHere’;
 
 Restart server
-@service httpd restart@
+@service httpd restart@˝
 
 !imageurl!:../images/article/phpcentos/phpMyAdmin.png
