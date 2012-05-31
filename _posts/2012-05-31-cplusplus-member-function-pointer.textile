@@ -12,14 +12,16 @@ C++中，成员指针是最为复杂的语法结构。但在事件驱动和多�
 
 　　一个成员函数指针包括成员函数的返回类型，后随::操作符类名，指针名和函数的参数。初看上去，语法有点复杂。其实可以把它理解为一个指向原函数的指针，格式是：函数返回类型，类名，::操作符，指针星号，指针名，函数参数。
 
-　　一个指向外部函数的指针声明为：
+　　一个指向外部函数的指针声明为
+
 bc.. void (*pf)(char *, const char *);
 
-　　void strcpy(char * dest, const char * source);
+void strcpy(char * dest, const char * source);
 
-　　pf=strcpy;
+pf=strcpy;
 
-p.　　一个指向类A成员函数的指针声明为：
+
+p. 一个指向类A成员函数的指针声明为：
 
 @void (A::*pmf)(char *, const char *);@
 
@@ -50,7 +52,7 @@ p.　　有些老的编译器可以通过没有&号的赋值方式，但标准C+
 
 bc.. typedef void(A::*PMA)(char *, const char *);
 
-　　PMA pmf= &A::strcat; // pmf是PMF类型(类A成员指针)的变量
+PMA pmf= &A::strcat; // pmf是PMF类型(类A成员指针)的变量
 
 p. 下文会看到使用类型定义特别有利于声明成员指针数组。
 
