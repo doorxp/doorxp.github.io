@@ -29,7 +29,7 @@ ServerName svnlabs
 By default port 80 is blocked on server, enable in iptables…
 @iptables -I RH-Firewall-1-INPUT -p tcp –dport 80 -j ACCEPT@
 
-!imageUrl!:../images/article/phpcentos/Apache_CentOS.png"
+!../images/article/phpcentos/Apache_CentOS.png!
 
 Chkconfig to start automatically if the Cloud Server is rebooted.
 
@@ -72,4 +72,4 @@ p. Edit config.inc.php for random string $cfg['blowfish_secret'] = ‘RandomStri
 Restart server
 @service httpd restart@˝
 
-!imageurl!:../images/article/phpcentos/phpMyAdmin.png
+!../images/article/phpcentos/phpMyAdmin.png!
