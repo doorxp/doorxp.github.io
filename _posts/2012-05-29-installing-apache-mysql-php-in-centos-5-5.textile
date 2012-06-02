@@ -70,6 +70,6 @@ cp config.sample.inc.php config.inc.php
 p. Edit config.inc.php for random string $cfg['blowfish_secret'] = ‘RandomStringHere’;
 
 Restart server
-@service httpd restart@˝
+@service httpd restart@
 
 !../images/article/phpcentos/phpMyAdmin.png!
