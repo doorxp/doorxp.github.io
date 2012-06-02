@@ -29,8 +29,7 @@ ServerName svnlabs
 By default port 80 is blocked on server, enable in iptables…
 @iptables -I RH-Firewall-1-INPUT -p tcp –dport 80 -j ACCEPT@
 
-!/images/article/phpcentos/Apache_CentOS.png!
-
+<img src='/images/article/phpcentos/Apache_CentOS.png' width='80%' height='80%'/>
 Chkconfig to start automatically if the Cloud Server is rebooted.
 
 @sudo /sbin/chkconfig httpd on@
