@@ -15,7 +15,8 @@ Tips：
 本文只使用了gitosis
 
 一，首先，先在服务器上建立一个git用户，让其来管理commit / push，避免权限问题；
-bc. 
+
+bc.. 
     sudo useradd -m git
     sudo passwd git 
 p. 
@@ -43,7 +44,8 @@ PermitEmptyPasswords no # 修改后变为此状态，禁止空密码进行登录
 (1)新建一个文件夹，用来存放下载的gitosis文件，如
 @mkdir ~/gitosis_setup@
 (2)安装gitosis
-bc. 
+
+bc.. 
 cd ~/ gitosis_setup
 git clone git://eagain.net/gitosis
 cd gitosis
@@ -60,7 +62,8 @@ p.
 
 七，配置gitweb
 （1）默认没有 css 加载，把 gitweb 要用的静态文件连接到 web服务器目录 下：
-bc. 
+
+bc.. 
 cd /var/ www/
 sudo ln -s / usr/ share/ gitweb/* .
 
@@ -84,7 +87,8 @@ p.
 
 初始化gitosis
 进入到拷贝过来的id_rsa.pub所在目录：
-bc. 
+
+bc.. 
 cd /home/ftpmaster/tmp
 sudo chmod 777 id_rsa.pub
 sudo -H -u git gitosis-init < id_rsa.pub
@@ -104,8 +108,7 @@ p.
 
 將大家的 public key 加入
 
-
-bc .
+bc.. 
     cat /home/ftpmaster/id_rsa_user1.pub >> ~/.ssh/authorized_keys
     cat /home/ftpmaster/id_rsa_user2.pub >> ~/.ssh/authorized_keys
 
@@ -114,7 +117,7 @@ p.
 
 二，建立 Git Repository
 
-bc. 
+bc.. 
 su - git
 mkdir -p /home/git/project_name.git
 cd /home/git/project_name.git
@@ -124,7 +127,7 @@ p.
 三，回到客户端电脑,下载项目，修改项目，并提交项目
 方法一，
 
-bc. 
+bc.. 
 git clone git@example.com:/home/git/project_name.git
 cd project_name
 vim test.txt
@@ -135,7 +138,7 @@ git push origin master
 p. 
 方法二，
 
-bc. 
+bc.. 
 mkdir project_name
 cd project_name
 git init
