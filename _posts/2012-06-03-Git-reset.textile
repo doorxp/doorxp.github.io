@@ -81,7 +81,6 @@ p.
 在删除远程master分支时，可能会有问题，见下：
 
 bc.. 
-
     $ git push origin :master  
 
     error: By default, deleting the current branch is denied, because the next  
@@ -107,6 +106,7 @@ bc..
      ! [remote rejected] master (deletion of the current branch prohibited)  
 
     error: failed to push some refs to 'git@xx.sohu.com:gitosis_test'  
+
 p. 
 这时需要在远程仓库目录下，设置git的receive.denyDeleteCurrent参数
 
