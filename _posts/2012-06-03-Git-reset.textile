@@ -14,7 +14,7 @@ reset命令有3种方式：
 
 以下是一些reset的示例：
 
-bc. 
+bc.. 
 
     #回退所有内容到上一个版本  
 
@@ -55,7 +55,7 @@ p.
 
     在本地直接把远程的master分支给删除，然后再把reset后的分支内容给push上去，如下：
 
-    折叠复制代码
+bc.. 
 
         #新建old_master分支做备份  
 
@@ -77,9 +77,10 @@ p.
 
         git push origin master  
 
+p. 
 在删除远程master分支时，可能会有问题，见下：
 
-折叠复制代码
+bc.. 
 
     $ git push origin :master  
 
@@ -106,12 +107,12 @@ p.
      ! [remote rejected] master (deletion of the current branch prohibited)  
 
     error: failed to push some refs to 'git@xx.sohu.com:gitosis_test'  
-
+p. 
 这时需要在远程仓库目录下，设置git的receive.denyDeleteCurrent参数
 
 折叠复制代码
 
-    git receive.denyDeleteCurrent warn  
+@git receive.denyDeleteCurrent warn@  
 
 然后，就可以删除远程的master分支了
 
