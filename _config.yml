@@ -1,3 +1,4 @@
+safe: true
 destination: ./_site
 server: true
 auto:        true
