@@ -1,175 +1,170 @@
 ---
-title: "ffmpeg"
+title: "ffmpeg探测网络流格式方法"
 layout: post
 category: Apple
 ---
 
-#include <stdio.h>
-#include <stdlib.h>
-extern "C"{//
-#include "avcodec.h"
-#include "avformat.h"
+最近遇到好几个人在问ffmpeg如何处理网络流，刚好前段时间也在做这方面，抽空整理了下，把主要代码发出来，希望对大家有用。为简单处理，我这里只简单介绍ＵＤＰ接收ＴＳ流，其实只要是socket接收的都可以类似处理。
+
+/*
+ * main.c
+ *
+ * Created on: 2011-9-18
+ * Author: wudegang
+ */
+
+#include "utils.h"
+#include <pthread.h>
+#include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
+
+UdpQueue recvqueue;
+UdpParam udpParam;
+
+//注册av_read_frame的回调函数，这里只是最简处理，实际应用中应加上出错处理，超时等待...
+int read_data(void *opaque, uint8_t *buf, int buf_size) {
+int size = buf_size;
+int ret;
+// printf("read data %d\n", buf_size);
+do {
+ret = get_queue(&recvqueue, buf, buf_size);
+} while (ret);
+
+// printf("read data Ok %d\n", buf_size);
+return size;
 }
 
+#define BUF_SIZE 4096*500
 
-int main(char arg,char *argv[])
-{
-    char *filename ="02.swf";
-    
-    av_register_all();//注册所有可解码类型
-    AVFormatContext *pInFmtCtx=NULL;//文件格式
-    AVCodecContext *pInCodecCtx=NULL;//编码格式
-    if (av_open_input_file(&pInFmtCtx,filename,NULL, 0, NULL)!=0)//获取文件格式
-        printf("av_open_input_file error\n");
-    if(av_find_stream_info(pInFmtCtx) < 0)//获取文件内音视频流的信息
-        printf("av_find_stream_info error\n");
-    
-    unsigned int j;
-    // Find the first audio stream
+int main(int argc, char** argv) {
 
-    int    audioStream = -1;
-    for(j=0; j<pInFmtCtx->nb_streams; j++)//找到音频对应的stream
-        if(pInFmtCtx->streams[j]->codec->codec_type==CODEC_TYPE_AUDIO)
-        {
-            audioStream=j;
-            break;
-        }
-        if(audioStream==-1)
-        {
-            printf("input file has no audio stream\n");
-            return 0; // Didn't find a audio stream
+init_queue(&recvqueue, 1024*500);
 
-        }
-        printf("audio stream num: %d\n",audioStream);
-        pInCodecCtx = pInFmtCtx->streams[audioStream]->codec;//音频的编码上下文
-        AVCodec *pInCodec=NULL;
-        /* FILE *file3 = fopen("codec_private_data_size.txt","w");
-        for(int i = 0; i <200000; i++)
-        {
-        pInCodec = avcodec_find_decoder((CodecID)i);
-        if (pInCodec!=NULL)
-        {
-        fprintf(file3,"%s %d\n",pInCodec->name,pInCodec->priv_data_size );
-        }
-        }
-        fclose(file3);
-        system("pause");
-        */
-        pInCodec = avcodec_find_decoder(pInCodecCtx->codec_id);//根据编码ID找到用于解码的结构体
-        if(pInCodec==NULL)
-        {
-            printf("error no Codec found\n");
-            return -1 ; // Codec not found
-        }
+udpParam.argv = argv;
+udpParam.queue = &recvqueue;
+uint8_t *buf = av_mallocz(sizeof(uint8_t)*BUF_SIZE);
 
 
-        //使用test的代替pInCodecCtx也可以完成解码，可以看出只要获取以下几个重要信息就可以实现解码和重采样
-        AVCodecContext *test = avcodec_alloc_context();
-        test->bit_rate = pInCodecCtx->bit_rate;//重采样用
-        test->sample_rate = pInCodecCtx->sample_rate;//重采样用
-        test->channels = pInCodecCtx->channels;//重采样用
-        test->extradata = pInCodecCtx->extradata;//若有则必有
-        test->extradata_size = pInCodecCtx->extradata_size;//若有则必要
-        test->codec_type = CODEC_TYPE_AUDIO;//不必要
-        test->block_align = pInCodecCtx->block_align ;//必要
+//UDP接收线程
+pthread_t udp_recv_thread;
+pthread_create(&udp_recv_thread, NULL, udp_ts_recv, &udpParam);
+pthread_detach(udp_recv_thread);
 
-        
-        if(avcodec_open(test, pInCodec)<0)//将两者结合以便在下面的解码函数中调用pInCodec中的对应解码函数
-        {
-            printf("error avcodec_open failed.\n");
-            return -1; // Could not open codec
 
-        }
-        
-        if(avcodec_open(pInCodecCtx, pInCodec)<0)
-        {
-            printf("error avcodec_open failed.\n");
-            return -1; // Could not open codec
 
-        }
-        
-        static AVPacket packet;
-        
-        printf(" bit_rate = %d \r\n", pInCodecCtx->bit_rate);
-        printf(" sample_rate = %d \r\n", pInCodecCtx->sample_rate);
-        printf(" channels = %d \r\n", pInCodecCtx->channels);
-        printf(" code_name = %s \r\n", pInCodecCtx->codec->name);
-        //printf("extra data size: %d :data%x %x %x %x\n",pInCodecCtx->extradata_size,pInCodecCtx->extradata[0]
-        //     ,pInCodecCtx->extradata[1],pInCodecCtx->extradata[2],pInCodecCtx->extradata[3]);
-        printf(" block_align = %d\n",pInCodecCtx->block_align);
-        
-        //system("pause");
-        //////////////////////////////////////////////////////////////////////////
+av_register_all();
 
-        uint8_t *pktdata;
-        int pktsize;
-        int out_size = AVCODEC_MAX_AUDIO_FRAME_SIZE*100;
-        uint8_t * inbuf = (uint8_t *)malloc(out_size);
-        FILE* pcm,*packetinfo;
-        packetinfo = fopen("packetinfo.txt","w");
-        pcm = fopen("result.pcm","wb");
-        long start = clock();
-        while(av_read_frame(pInFmtCtx, &packet)>=0)//pInFmtCtx中调用对应格式的packet获取函数
-        {
-            //fprintf(packetinfo," packet { pts=%d; dts =%d;%x,%x,%x,%x; size=%d; stream_index=%d; pos=%d;}\n",
+AVCodec *pVideoCodec, *pAudioCodec;
+AVCodecContext *pVideoCodecCtx = NULL;
+AVCodecContext *pAudioCodecCtx = NULL;
+AVIOContext * pb = NULL;
+AVInputFormat *piFmt = NULL;
+AVFormatContext *pFmt = NULL;
 
-            // packet.pts,packet.dts,packet.data[0],packet.data[1],packet.data[2],packet.data[3],packet.size,packet.stream_index,packet.pos);
-
-            if(packet.stream_index==audioStream)//如果是音频
-            {
-                pktdata = packet.data;
-                pktsize = packet.size;
-                while(pktsize>0)
-                {
-                    //fprintf(packetinfo,"packet data:%x %x %x %x %x\n",pktdata[0],pktdata[1],pktdata[2],pktdata[3],pktdata[4]);
-
-                    //fprintf(packetinfo,"packet size:%d\n\n",pktsize);
-
-                    out_size = AVCODEC_MAX_AUDIO_FRAME_SIZE*100;
-                    //解码
-                    int len = avcodec_decode_audio2(pInCodecCtx,(short*)inbuf,&out_size,pktdata,pktsize);
-                    if (len<0)
-                    {
-                        printf("Error while decoding.\n");
-                        break;
-                    }
-                    if(out_size>0)
-                    {
-                        fwrite(inbuf,1,out_size,pcm);//pcm记录
-                        fflush(pcm);
-                    }
-                    pktsize -= len;
-                    pktdata += len;
-                }
-            }
-            av_free_packet(&packet);
-        }
-        long end = clock();
-        printf("cost time :%f\n",double(end-start)/(double)CLOCKS_PER_SEC);
-        free(inbuf);
-        fclose(pcm);
-        fclose(packetinfo);
-        if (pInCodecCtx!=NULL)
-        {
-            avcodec_close(pInCodecCtx);
-        }
-        if (test!=NULL)
-        {
-            avcodec_close(test);
-        }
-        av_free(test);
-        av_close_input_file(pInFmtCtx);
-        return 0;
+//step1:申请一个AVIOContext
+pb = avio_alloc_context(buf, BUF_SIZE, 0, NULL, read_data, NULL, NULL);
+if (!pb) {
+fprintf(stderr, "avio alloc failed!\n");
+return -1;
+}
+//step2:探测流格式
+if (av_probe_input_buffer(pb, &piFmt, "", NULL, 0, 0) < 0) {
+fprintf(stderr, "probe failed!\n");
+return -1;
+} else {
+fprintf(stdout, "probe success!\n");
+fprintf(stdout, "format: %s[%s]\n", piFmt->name, piFmt->long_name);
 }
 
- 
+pFmt = avformat_alloc_context();
+pFmt->pb = pb; //step3:这一步很关键
+//step4:打开流
+if (avformat_open_input(&pFmt, "", piFmt, NULL) < 0) {
+fprintf(stderr, "avformat open failed.\n");
+return -1;
+} else {
+fprintf(stdout, "open stream success!\n");
+}
+//以下就和文件处理一致了
+if (av_find_stream_info(pFmt) < 0) {
+fprintf(stderr, "could not fine stream.\n");
+return -1;
+}
 
-一个英文版的例子（有讲解）
-ffmpeg的一些使用例子
-mpeg and SDL Tutorial
-ffmpeg编译相关
-ffmpeg工作组(中文) 
+av_dump_format(pFmt, 0, "", 0);
 
-转自：
+int videoindex = -1;
+int audioindex = -1;
+for (int i = 0; i < pFmt->nb_streams; i++) {
+if ( (pFmt->streams[i]->codec->codec_type == AVMEDIA_TYPE_VIDEO) &&
+(videoindex < 0) ) {
+videoindex = i;
+}
+if ( (pFmt->streams[i]->codec->codec_type == AVMEDIA_TYPE_AUDIO) &&
+(audioindex < 0) ) {
+audioindex = i;
+}
+}
 
-http://blog.chinaunix.net/u3/108358/showart_2132123.html
+if (videoindex < 0 || audioindex < 0) {
+fprintf(stderr, "videoindex=%d, audioindex=%d\n", videoindex, audioindex);
+return -1;
+}
+
+AVStream *pVst,*pAst;
+pVst = pFmt->streams[videoindex];
+pAst = pFmt->streams[audioindex];
+
+pVideoCodecCtx = pVst->codec;
+pAudioCodecCtx = pAst->codec;
+
+pVideoCodec = avcodec_find_decoder(pVideoCodecCtx->codec_id);
+if (!pVideoCodec) {
+fprintf(stderr, "could not find video decoder!\n");
+return -1;
+}
+if (avcodec_open(pVideoCodecCtx, pVideoCodec) < 0) {
+fprintf(stderr, "could not open video codec!\n");
+return -1;
+}
+
+pAudioCodec = avcodec_find_decoder(pAudioCodecCtx->codec_id);
+if (!pAudioCodec) {
+fprintf(stderr, "could not find audio decoder!\n");
+return -1;
+}
+if (avcodec_open(pAudioCodecCtx, pAudioCodec) < 0) {
+fprintf(stderr, "could not open audio codec!\n");
+return -1;
+}
+
+int got_picture;
+uint8_t samples[AVCODEC_MAX_AUDIO_FRAME_SIZE*3/2];
+AVFrame *pframe = avcodec_alloc_frame();
+AVPacket pkt;
+av_init_packet(&pkt);
+
+while(1) {
+if (av_read_frame(pFmt, &pkt) >= 0) {
+
+if (pkt.stream_index == videoindex) {
+fprintf(stdout, "pkt.size=%d,pkt.pts=%lld, pkt.data=0x%x.", pkt.size, pkt.pts,(unsigned int)pkt.data);
+avcodec_decode_video2(pVideoCodecCtx, pframe, &got_picture, &pkt);
+if (got_picture) {
+fprintf(stdout, "decode one video frame!\n");
+}
+}else if (pkt.stream_index == audioindex) {
+int frame_size = AVCODEC_MAX_AUDIO_FRAME_SIZE*3/2;
+if (avcodec_decode_audio3(pAudioCodecCtx, (int16_t *)samples, &frame_size, &pkt) >= 0) {
+fprintf(stdout, "decode one audio frame!\n");
+}
+}
+av_free_packet(&pkt);
+}
+}
+
+av_free(buf);
+av_free(pframe);
+free_queue(&recvqueue);
+return 0;
+}
