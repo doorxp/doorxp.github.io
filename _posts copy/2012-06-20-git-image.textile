@@ -1,7 +1,0 @@
----
-title: "git 图片说明"
-layout: post
-categroy: git
----
-
-!/images/article/git/1333077018_9309.png!
