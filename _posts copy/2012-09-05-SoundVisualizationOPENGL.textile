@@ -1,0 +1,7 @@
+---
+title: "Sound Visualization with OpenGL"
+layout: post
+category: Apple
+---
+
+https://ccrma.stanford.edu/~seancoff/256a/hw3/

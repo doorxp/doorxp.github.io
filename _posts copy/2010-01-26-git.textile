@@ -1,0 +1,88 @@
+---
+layout: post
+title: Git使用
+category: git
+---
+h2. 基本概念
+
+h3. 存储
+
+bq. 
+WorkSpace ==> Git Index ==> Git Local Repository ==> Git Remote Repository
+Git数据在各个存储空间中的迁徙示意图
+
+!/images/article/git-transport.png!
+
+h3. submodule
+
+主项目中可能需要使用其他项目(比如juggernaut，简称项目B)的功能，将项目B直接拷贝过来当然可行
+但这样的话，项目B以后更新的内容就无法及时更新过来了
+
+正确的做法应该是把项目B作为主项目的submodule，通过以下语句引入
+
+pre. 
+git submodule add git://github.com/maccman/juggernaut.git vendor/others/juggernaut
+
+h2. 常用命令
+
+h3. 基本
+
+{% highlight bash %}
+#检查当前修改、新增的文件
+git status 
+
+#新增分支，对于大范围的修改，应先使用此命令创建分支
+git checkout -b 分支名
+
+#显示所有分支列表，前面有星号的为当前分支
+git branch
+
+#切换至另一个分支
+git checkout 分支名
+
+#检查修改内容
+git diff
+git diff --color
+
+#将新增的文件加入版本控制
+git add .
+
+#add之后，检查修改内容
+git diff HEAD
+
+#提交。也可以使用git commit -a -m '描述'，此命令包含了git add .
+git commit -m '修改内容的描述'
+
+#使用commit提交本地后，在保证所有测试用例通过的情况下，可以上传至远程版本服务器
+git push
+#注意，如果别人已经有上传了新的改动至服务器，则应将远程版本同步下来
+git pull
+#执行后，git会进行自动合并操作，失败的会提示用户手动合并(直接修改文件，并去掉git<<====等冲突标记)
+#将修改过的文件重新commit后上传
+git push
+
+#查看某个文件的修改历史
+git log -p app/controllers/grids_controller.rb
+
+#获取以前版本的文件
+git checkout 0d7371d574 public/open-flash-chart.swf
+#0d7371d574为commit号前的n位数值，此值可以通过查看文件的修改历史获取到
+{% endhighlight %}
+
+h3. 对比差异
+
+pre. 
+#可视化左右分栏对比
+git difftool foo.rb
+
+h3. 冲突处理
+
+当本地修改的代码与其他人员已提交的代码发生冲突时,git会显示需要手动合并的冲突文件
+我们可以手动打开编辑冲突,当冲突文件多的时候就有点麻烦,其实git为我们提供了批量合并工具
+
+pre. 
+#指定使用vimdiff进行编辑
+git mergetool --tool=vimdiff
+
+以上命令会依次显示待编辑的窗口,每个窗口分三个子窗口,依次为local,merge,remote文件
+中间子窗口的merge文件就是我们要编辑命令的文件了,其他两个不用修改

@@ -1,0 +1,91 @@
+---                                                                                                                                                          
+layout: post
+title: svn集中存储
+category: git
+---
+
+h2. 安装
+
+<pre>
+#git-svn
+sudo apt-get install git-svn
+</pre>
+
+h2. 从svn获取源码
+
+<pre>
+#将原有zbs目录改名为zbs-git
+cd ~/Documents
+mv zbs zbs-git
+git-svn clone https://192.168.1.14/svn/zbs/trunk/1开发库/1.4系统开发 zbs
+#会提示要不要永久保留https证书，输入p
+#会提示输入您的svn用户名、密码
+</pre>
+
+h2. 后记
+
+<pre>
+#新建log目录
+mkdir log
+#创建database.yml文件
+cp config/database-example.yml config/database.yml
+#自行修改config/database.yml中的数据库用户名和密码
+#git-svn clone下来的script无可执行属性
+cd zbs
+chmod +x script
+</pre>
+
+h2. 使用
+
+<pre>
+#基本的操作与git原有的一样
+git add .
+git commit -a -m 'write sth'
+#获取最新代码由git pull改为
+git svn rebase
+#修正冲突过程与git操作不变...
+#注意！在发生冲突时，分支会被切换至"无分支"状态
+#在修正冲突后，要执行以下语句，以返回原分支
+git add .
+git rebase --continue
+#提交至svn服务器
+git svn dcommit
+</pre>
+
+h2. 问题
+
+<pre>
+git svn dcommit
+#提示以下错误
+#Committing to https://192.168.1.14/svn/zbs/trunk/1开发库/1.4系统开发 ...
+#HTTP Path Not Found: '/svn/zbs/!svn/bc/151/trunk/1' path not found at /usr/bin/git-svn line 450
+
+#google不到原因，也没有解决，后来定位到了重现的方法:
+#将一个已经上传到svn服务器的文件改名，上传就会出现上面的错误，比如：
+touch foo
+git add .
+git commit -a -m 'test file'
+git svn dcommit
+git mv foo foo1
+git commit -a -m 'test svn wired problem'
+git svn dcommit
+#此时就会出现问题了，出现此问题我只能是重新git-svn clone了
+#为避免以上问题产生，应将rename操作分解为先拷贝出来，再git rm，然后先提交rm的内容，再add刚才拷贝的新文件
+#方法好繁琐，但实在没有其他办法了
+
+#20100419，再次出现以上问题，尝试使用分步上传成功
+# 1.恢复被删除的文件
+git reset HEAD db/migrate/20100415010835_add_score_to_resource.rb
+git checkout db/migrate/20100415010835_add_score_to_resource.rb
+# 2.撤消git repository的版本到之前正常的commit
+git reset --soft bb066a4283dbbbe278489a091815f887e45037f5
+# 3.分步提交
+git add spec
+git commit -m '测试1'
+# 4. 将其他修改的文件存入stash中
+git stash
+# 5. 提交(正常)
+git svn dcommit
+# 重复执行3-5步骤，最后再删除之前要删除的文件
+git rm db/migrate/20100415010835_add_score_to_resource.rb
+<pre>
