@@ -1,5 +1,5 @@
 ---
-title: "Sound Visualization with OpenGL"
+title: "Debugging Crash Log from dSYM"
 layout: post
 category: iphone
 ---
