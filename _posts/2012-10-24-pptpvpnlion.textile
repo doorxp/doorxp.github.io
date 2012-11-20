@@ -1,5 +1,4 @@
 ---
----
 title: "Lion下，三步实现 PPTP(VPN) 自动路由"
 layout: post
 category: apple
