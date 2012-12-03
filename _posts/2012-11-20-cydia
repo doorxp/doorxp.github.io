@@ -1,0 +1,27 @@
+---
+title: "copy来的修复和重装cydia的方法，我的cydia成功修复"
+layout: post
+category: iphone
+---
+
+1、用iFILE或ifunbox进入var/lib/apt/list然后删掉此文件夹下的所有文件（文件夹不删），该目录下的partial文件夹下的内容也删除，但要保留这个空文件夹。
+2、用iFILE或ifunbox进入/etc/apt/sources.list.d目录，删除该目录下的cydia.list，里面有你手动添加的源的列表，是备份用的，可编辑，个别删除。
+【特别提醒：】如果你知道是哪个源给你造成的麻烦（一般cydia会有告警），那在上面2个步骤中，你可以只删除这个麻烦的源，这样就不必全部重新添加源了。
+一般完成第1、2步就可修复cydia，如果不行请继续执行以下步骤。
+3、进入/var/lib/dpkg/updates目录，将该目录下的所有文件删掉，就可以修复cydia。
+4、用iFILE或ifunbox删除var/lib/cydia/metadata.plist文件，这个是保存所有添加过的源的信息。有些顽固的信息藏在这里，前面3步就算全部执行，在重新进入cydia，再添加源的时候，metadata.plist会再次起作用，将顽固信息再次复原，这样又导致cydia崩溃。因此删掉它是一个比较根本的解决办法。
+5、此时你进入CYDIA会发现，源都不见了，那就自己手动添加吧。想要什么就加什么。
+原来cydia自带的源，我建议只添加saurik和bigboss的威锋镜像源就够了，需要解锁的童鞋还要添加ultrasn0w，三个地址分别是：
+http://apt.we iphone .com/cydia/saurik
+http://apt.weiphone.com/cydia/bigboss
+http://repo666.ultrasn0w.com
+其他源就可以从我的置顶精华帖“推荐精选破解源”（点 这里 ）中寻找。建议添加3个“强烈推荐”的就可以了。
+6、如果还不行，重装一次CYDIA，我的这个帖子（点 这里 ）提供最新CYDIA.DEB下载，用ifunbox传到iphone上，用IFILE安装即可。
+7、如果还不行，那你干脆删掉cydia，重新 越狱 安装一次算了，当然不需要刷机，也不会影响其他数据。
+8、最后，【终极方法来啦】如果你运气非常差，还不能解决，那就刷机吧，只要你有SHSH备份，只要你不是硬件故障，这是绝对能够解决问题的方法。当然数据都清空了。如果刷机之前用itunes同步备份，之后还是可以恢复大部分的数据的，但有些 软件 里的数据是不保存的。
+        至此，各位锋友不再埋怨我提供这么多的破解软件源啦吧！好好享用吧！觉得我的帖子对你有帮助的，请不吝加分哦！至少顶顶吧！
+有童鞋提到无法用威锋的批量替换镜像源，那就试试下载下面的DEB软件包，安装进去吧：
+http://apt.saurik.com/debs/saurik_0-4_iphoneos-arm.deb
+http://apt.saurik.com/debs/bigboss_0-12_iphoneos-arm.deb
+http://apt.saurik.com/debs/ispazio.net_0-5_iphoneos-arm.deb
+http://apt.saurik.com/debs/modmyifone_0-6_darwin-from weiphone。
