@@ -1,0 +1,74 @@
+---
+title: "OpenURL"
+layout: post
+category: ios
+---
+
+
+Airplane Mode On prefs:root=AIRPLANE_MODE
+Wi-Fi   prefs:root=WIFI
+Location Services  prefs:root=LOCATION_SERVICES
+Sounds  prefs:root=Sounds
+Brightness   prefs:root=Brightness
+Wallpaper  prefs:root=Wallpaper
+ 
+General   prefs:root=General
+ 
+Twitter  prefs:root=TWITTER
+Phone  prefs:root=Phone
+FaceTime  prefs:root=FACETIME
+Safari   prefs:root=Safari
+About  prefs:root=General&path=About
+Usage   prefs:root=General&path=USAGE
+Siri   prefs:root=General&path=Assistant
+Network prefs:root=General&path=Network
+Bluetooth  prefs:root=General&path=Bluetooth
+ 
+Auto-Lock  prefs:root=General&path=AUTOLOCK
+ 
+Date & Time   prefs:root=General&path=DATE_AND_TIME
+Keyboard   prefs:root=General&path=Keyboard
+International prefs:root=General&path=INTERNATIONAL
+Accessibility prefs:root=General&path=ACCESSIBILITY
+ 
+Reset   prefs:root=General&path=Reset
+
+http://daisukeblog.com/?p=1705
+
+Wi-Fi  prefs:root=WIFI
+Notifications  prefs:root=NOTIFICATIONS_ID
+Location Services prefs:root=LOCATION_SERVICES
+Sounds prefs:root=Sounds
+Brightness      prefs:root=Brightness
+Wallpaper prefs:root=Wallpaper
+
+About prefs:root=General&path=About
+Software Update prefs:root=General&path=SOFTWARE_UPDATE_LINK
+Usage   prefs:root=General&path=USAGE
+Siri   prefs:root=General&path=Assistant
+Network prefs:root=General&path=Network
+VPN prefs:root=General&path=Network/VPN
+Auto Lock   prefs:root=General&path=AUTOLOCK
+Date and Time   prefs:root=General&path=DATE_AND_TIME
+Keyboard  prefs:root=General&path=Keyboard
+Language   prefs:root=General&path=INTERNATIONAL
+Accessibility  prefs:root=General&path=ACCESSIBILITY
+Profile   prefs:root=General&path=ManagedConfigurationList
+Reset prefs:root=General&path=Reset
+
+iCloud            prefs:root=CASTLE
+iCloud/Storage prefs:root=CASTLE&path=STORAGE_AND_BACKUP
+Mail/Contacts/Cal prefs:root=ACCOUNT_SETTINGS
+Twitter             prefs:root=TWITTER
+Phone             prefs:root=Phone
+FaceTime            prefs:root=FACETIME
+Safari             prefs:root=Safari
+Messages             prefs:root=MESSAGES
+Music               prefs:root=MUSIC
+Music Equalizer       prefs:root=MUSIC&path=EQ
+Music/Volume Limit  prefs:root=MUSIC&path=VolumeLimit
+Video            prefs:root=VIDEO
+Photos            prefs:root=Photos
+Notes                   prefs:root=NOTES
+Store            prefs:root=STORE
+Nike + iPod           prefs:root=NIKE_PLUS_IPOD
