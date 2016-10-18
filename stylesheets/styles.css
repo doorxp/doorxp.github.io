@@ -127,7 +127,7 @@ nav .menu ul {
 nav .menu li {
     display: block;
     float: left;
-    text-shadow: -4px 0px 0px #0f1128, -8px 0px 4px rgb(50, 152, 234), -10px 0px 4px rgba(50, 152, 234, 0.3), -8px -4px 4px rgba(50, 152, 234, 0.6), -8px 4px 4px rgba(50, 152, 234, 0.6);
+    text-shadow: 5px 5px 5px #999;
 }
 
 nav .menu a {
