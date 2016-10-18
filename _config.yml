@@ -1,9 +1,8 @@
 safe: true
 destination: ./_site
-server: true
 auto:        true
 lsi:         false
-server_port: 4000
-pygments:    true
+port: 4000
+highlighter:    true
 markdown:    redcloth
 permalink:   date

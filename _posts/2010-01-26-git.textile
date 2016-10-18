@@ -3,11 +3,12 @@ layout: post
 title: Git使用
 category: git
 ---
+
 h2. 基本概念
 
 h3. 存储
 
-bq. 
+bq.
 WorkSpace ==> Git Index ==> Git Local Repository ==> Git Remote Repository
 Git数据在各个存储空间中的迁徙示意图
 
@@ -20,7 +21,7 @@ h3. submodule
 
 正确的做法应该是把项目B作为主项目的submodule，通过以下语句引入
 
-pre. 
+pre.
 git submodule add git://github.com/maccman/juggernaut.git vendor/others/juggernaut
 
 h2. 常用命令
@@ -29,7 +30,7 @@ h3. 基本
 
 {% highlight bash %}
 #检查当前修改、新增的文件
-git status 
+git status
 
 #新增分支，对于大范围的修改，应先使用此命令创建分支
 git checkout -b 分支名
@@ -71,7 +72,7 @@ git checkout 0d7371d574 public/open-flash-chart.swf
 
 h3. 对比差异
 
-pre. 
+pre.
 #可视化左右分栏对比
 git difftool foo.rb
 
@@ -80,7 +81,7 @@ h3. 冲突处理
 当本地修改的代码与其他人员已提交的代码发生冲突时,git会显示需要手动合并的冲突文件
 我们可以手动打开编辑冲突,当冲突文件多的时候就有点麻烦,其实git为我们提供了批量合并工具
 
-pre. 
+pre.
 #指定使用vimdiff进行编辑
 git mergetool --tool=vimdiff
 

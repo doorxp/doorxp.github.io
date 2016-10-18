@@ -32,12 +32,10 @@ title: doorxp
             <div class="menu">
                 <ul>
                     <li><a href="/">首页</a></li>
-                    <li><a href="/blogs.html">博客</a></li>
-                    <li><a href="/linux/2011/02/24/osx_iOS.html">OS X & iOS</a></li>
-                    <li><a href="/linux/2011/03/03/development.html">Development</a></li>
-                    <li><a href="/git/2010/10/25/windows.html">Windows</a></li>
-                    <li><a href="/git/2010/10/25/windows.html">娱乐</a></li>
-                    <li><a href="/about.html">关于我</a></li>
+                    <li><a href="/mainpages/blogs.html">博客</a></li>
+                    <li><a href="/mainpages/OSX_iOS.html">OS X & iOS</a></li>
+                    <li><a href="/mainpages/development.html">Development</a></li>
+                    <li><a href="/mainpages/about.html">关于我</a></li>
                 </ul>
             </div>
             <section id="main">
@@ -72,7 +70,7 @@ title: doorxp
                         <ul>
                             <li style="list-style: none">{% for category in site.categories %}
                             </li>
-                            <li><a href="/category/{{category%20|%20first}}.html">{{category |
+                            <li><a href="/category/{{category|first}}.html">{{category |
 first}} ({{category | last | size }})</a></li>
                             <li style="list-style: none">{% endfor %}</li>
                         </ul>
