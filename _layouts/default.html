@@ -1,130 +1,131 @@
----
-author: doorxp
-desc: 演绎至经典,静候不凡目光
-title:  小小的太阳
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    {% if page.title != null %}
+<!DOCTYPE html>
+<html>
+
+<head>
     <title>{{page.title}} | {{ page.desc }} - {{ page.author }}</title>
-    {% else %}
     <title>{{ page.desc }} - {{ page.author }}</title>
-    {% endif %}
-    <link rel="stylesheet" href="/stylesheets/default.css" type="text/css" media="screen" charset="utf-8"/>
-    <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" media="screen" charset="utf-8"/>
-    <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" media="screen" charset="utf-8"/>
-    <link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print" charset="utf-8"/>
+</head>
+
+<body>
+    --- author: doorxp desc: 演绎至经典,静候不凡目光 title: doorxp ---
+    <meta charset="utf-8">{% if page.title != null %} {% else %} {% endif %}
+    <link rel="stylesheet" href="/stylesheets/default.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print" charset="utf-8">
     <!--[if IE]><script src="/javascripts/html5.js"></script><![endif]-->
-  </head>
-  <body>
-    <div id="wrapper"><!-- #wrapper -->
-      <header><!-- header -->
-      <h1><a href="/">{{ page.author }}</a></h1>
-      <h2><a href="/">{{ page.desc }}</a></h2>
-      </header><!-- end of header -->
+    <div id="wrapper">
+        <!-- #wrapper -->
+        <header>
+            <!-- header -->
+            <h1><a href="/">{{ page.author }}</a></h1>
+            <h2><a href="/">{{ page.desc }}</a></h2>
+        </header>
+        <!-- end of header -->
+        <nav>
+            <!-- top nav -->
+            <div class="menu">
+                <ul>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/blogs.html">博客</a></li>
+                    <li><a href="/linux/2011/02/24/osx_iOS.html">OS X & iOS</a></li>
+                    <li><a href="/linux/2011/03/03/development.html">Development</a></li>
+                    <li><a href="/git/2010/10/25/windows.html">Windows</a></li>
+                    <li><a href="/git/2010/10/25/windows.html">娱乐</a></li>
+                    <li><a href="/about.html">关于我</a></li>
+                </ul>
+            </div>
+            <section id="main">
+                <!-- #main content and sidebar area -->
+                <div id="content">
+                    <article class="articlecontent">{{ content }}</article>
+                </div>
+                <aside>
+                    <section>
+                        <h3>Who's doorxp</h3>
+                        <img src="/images/doorxp.jpg">
+                        <p>email:<a href="mailto:aja@doorxp.com">aja@doorxp.com</a></p>
+                        <p>twitter:<a href="http://twitter.com/doorxp">twitter.com/doorxp</a></p>
+                    </section>
+                    <section>
+                        <!-- Feedsky FEED发布代码开始 -->
+                        <!-- FEED自动发现标记开始 -->
+                        <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/doorxp" rel="alternate">
+                        <!-- FEED自动发现标记结束 -->
+                        <a href="http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_sub_c1s17_d.gif" alt="feedsky" vspace="2" style="margin-bottom:0px"></a><br>
+                        <a href="http://www.zhuaxia.com/add_channel.php?url=http://feed.feedsky.com/doorxp">
+                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_zhuaxia.gif" alt="抓虾" vspace="2" style="margin-bottom:0px"></a><br>
+                        <a href="http://www.rojo.com/add-subscription?resource=http://feed.feedsky.com/doorxp">
+                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_rojo.gif" alt="Rojo" vspace="2" style="margin-bottom:0px"></a><br>
+                        <a href="http://fusion.google.com/add?feedurl=http://feed.feedsky.com/doorxp">
+                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_google.gif" alt="google reader" vspace="2" style="margin-bottom:0px"></a><br>
+                        <a href="http://add.my.yahoo.com/rss?url=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_yahoo.gif" alt="my yahoo" vspace="2" style="margin-bottom:0px"></a><br>
+                        <!-- Feedsky FEED发布代码结束 -->
+                    </section>
+                    <section>
+                        <h3>Categories</h3>
+                        <ul>
+                            <li style="list-style: none">{% for category in site.categories %}
+                            </li>
+                            <li><a href="/category/{{category%20|%20first}}.html">{{category |
+first}} ({{category | last | size }})</a></li>
+                            <li style="list-style: none">{% endfor %}</li>
+                        </ul>
+                    </section>
+                </aside>
+            </section>
+            <!-- end of #main content and sidebar-->
+            <footer>
+                <section id="footer-area">
+                    <section id="footer-outer-block">
+                        <aside class="footer-segment">
+                            <h4>Friends</h4>
+                            <ul>
+                                <li><a href="http://vim-adventures.com/#">vim-adventures</a></li>
+                                <li><a href="http://115.com/">115</a></li>
+                                <li><a href="../google-blockly/demos/maze/index.html" title="Maze Game">Maze Game for Developer</a></li>
+                                <li><a href="http://gitbook.liuhui998.com/index.html">git
+中文教程</a></li>
+                            </ul>
+                        </aside>
+                        <!-- end of #first footer segment -->
+                        <aside class="footer-segment">
+                            <h4>Iphone Development</h4>
+                            <ul>
+                                <li><a href="http://www.cocoachina.com/">cocoachina</a></li>
+                                <li><a href="http://iphone.tgbus.com/">电玩巴士</a></li>
+                                <li><a href="http://www.weiphone.com/">weiphone</a></li>
+                                <li><a href="http://iphone.91.com/">91</a></li>
+                                <li><a href="http://www.cplusplus.com/reference/">cplusplus
+reference</a></li>
+                                <li><a href="http://dev.gameres.com/articles.asp?style=j&amp;page=1">GameRes</a></li>
+                            </ul>
+                        </aside>
+                        <!-- end of #second footer segment -->
+                        <aside class="footer-segment">
+                            <h4>Open Source</h4>
+                            <ul>
+                                <li><a href="http://gcc.godbolt.org/">gcc.godbolt.org</a></li>
+                                <li><a href="http://github.com">GitHub</a></li>
+                                <li><a href="http://sourceforge.net">sourceforge</a></li>
+                                <li><a href="http://stackoverflow.com">stackoverflow</a></li>
+                                <li><a href="http://freecode.com">freecode</a></li>
+                            </ul>
+                        </aside>
+                        <!-- end of #third footer segment -->
+                        <aside class="footer-segment">
+                            <h4>Encourage</h4>
+                            <p>尝试. 坚持. 分享. 宽容.</p>
+                        </aside>
+                        <!-- end of #fourth footer segment -->
+                    </section>
+                    <!-- end of footer-outer-block -->
+                </section>
+                <!-- end of footer-area -->
+            </footer>
+        </nav>
+    </div>
+    <!-- #wrapper -->
+</body>
 
-      <nav><!-- top nav -->
-      <div class="menu">
-        <ul>
-          <li><a href="/">首页</a></li>
-          <li><a href="/blogs.html">博客</a></li>
-          <li><a href="/linux/2011/02/24/osx_iOS.html">OS X & iOS</a></li>
-          <li><a href="/linux/2011/03/03/development.html">Development</a></li>
-          <li><a href="/git/2010/10/25/windows.html">Windows</a></li>
-		 <li><a href="/git/2010/10/25/windows.html">娱乐</a></li>
-		 <li><a href="/about.html">关于我</a></li>
-        </ul>
-	</div>
-      <section id="main"><!-- #main content and sidebar area -->
-      <div id="content">
-        <article class="articlecontent">
-          {{ content }}
-        </article>
-      </div>
-
-      <aside>
-      <section>
-      <h3>Who's doorxp</h3>
-      <img src="/images/doorxp.jpg"/>
-      <p>email:<a href="mailto:aja@doorxp.com">aja@doorxp.com</a></p>
-      <p>twitter:<a href="http://twitter.com/doorxp">twitter.com/doorxp</a></p>
-      </section>
-
-      <section>
-      <!-- Feedsky FEED发布代码开始 -->
-      <!-- FEED自动发现标记开始 -->
-      <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/doorxp" rel="alternate" />
-      <!-- FEED自动发现标记结束 -->
-      <a href="http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_sub_c1s17_d.gif" alt="feedsky" vspace="2"  style="margin-bottom:0px" ></a><br />
-      <a href="http://www.zhuaxia.com/add_channel.php?url=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_zhuaxia.gif" alt="&#25235;&#34430;" vspace="2" style="margin-bottom:0px" ></a><br />
-      <a href="http://www.rojo.com/add-subscription?resource=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_rojo.gif" alt="Rojo" vspace="2" style="margin-bottom:0px" ></a><br />
-      <a href="http://fusion.google.com/add?feedurl=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_google.gif" alt="google reader" vspace="2" style="margin-bottom:0px" ></a><br />
-      <a href="http://add.my.yahoo.com/rss?url=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_yahoo.gif" alt="my yahoo" vspace="2" style="margin-bottom:0px" ></a><br />
-      <!-- Feedsky FEED发布代码结束 -->
-      </section>
-
-      <section>
-      <h3>Categories</h3>
-      <ul>
-        {% for category in site.categories %}
-        <li><a href="/category/{{category | first}}.html">{{category | first}} ({{category | last | size }})</a></li>
-        {% endfor %}
-      </ul>
-      </section>
-
-      </aside>
-
-      </section><!-- end of #main content and sidebar-->
-
-      <footer>
-      <section id="footer-area">
-
-      <section id="footer-outer-block">
-      <aside class="footer-segment">
-      <h4>Friends</h4>
-      <ul>
-		<li><a href="http://vim-adventures.com/#">vim-adventures</a></li>
-		<li><a href="http://115.com/">115</a></li>
-		<li><a href="../google-blockly/demos/maze/index.html" title="Maze Game">Maze Game for Developer</li>
-			<li><a href="http://gitbook.liuhui998.com/index.html">git 中文教程</a></li>
-      </ul>
-      </aside><!-- end of #first footer segment -->
-
-      <aside class="footer-segment">
-      <h4>Iphone Development</h4>
-      <ul>
-        <li><a href="http://www.cocoachina.com/">cocoachina</a></li>
-        <li><a href="http://iphone.tgbus.com/">电玩巴士</a></li>
-        <li><a href="http://www.weiphone.com/">weiphone</a></li>
-        <li><a href="http://iphone.91.com/">91</a></li>
-        <li><a href="http://www.cplusplus.com/reference/">cplusplus reference</a></li>
-		<li><a href="http://dev.gameres.com/articles.asp?style=j&page=1">GameRes</a></li>
-      </ul>
-      </aside><!-- end of #second footer segment -->
-
-      <aside class="footer-segment">
-      <h4>Open Source</h4>
-      <ul>
-        <li><a href="http://gcc.godbolt.org/">gcc.godbolt.org</a></li>
-        <li><a href="http://github.com">GitHub</a></li>
-        <li><a href="http://sourceforge.net">sourceforge</a></li>
-        <li><a href="http://stackoverflow.com">stackoverflow</a></li>
-        <li><a href="http://freecode.com">freecode</a></li>
-      </ul>
-      </aside><!-- end of #third footer segment -->
-
-      <aside class="footer-segment">
-      <h4>Encourage</h4>
-      <p>尝试. 坚持. 分享. 宽容.</p>
-      </aside><!-- end of #fourth footer segment -->
-
-      </section><!-- end of footer-outer-block -->
-
-      </section><!-- end of footer-area -->
-      </footer>
-
-    </div><!-- #wrapper -->
-  </body>
 </html>
