@@ -1,8 +1,10 @@
 ---
-author: doorxp
 desc: 演绎至经典,静候不凡目光
 title: doorxp
+author: doorxp
 ---
+
+{% assign author = site.data.people[page.author] %}
 
 <!DOCTYPE html>
 <html>
@@ -35,6 +37,7 @@ title: doorxp
                     <li><a href="/mainpages/blogs.html">博客</a></li>
                     <li><a href="/mainpages/OSX_iOS.html">OS X & iOS</a></li>
                     <li><a href="/mainpages/development.html">Development</a></li>
+                    <li><a href="/mainpages/crack.html">破解</a></li>
                     <li><a href="/mainpages/about.html">关于我</a></li>
                 </ul>
             </div>
@@ -44,26 +47,18 @@ title: doorxp
                     <article class="articlecontent">{{ content }}</article>
                 </div>
                 <aside>
-                    <section>
+                    <section rel="author">
                         <h3>Who's doorxp</h3>
                         <img src="/images/doorxp.jpg">
-                        <p>email:<a href="mailto:aja@doorxp.com">aja@doorxp.com</a></p>
-                        <p>twitter:<a href="http://twitter.com/doorxp">twitter.com/doorxp</a></p>
+                        <p>email:<a href="mailto:{{author.mail}}">{{author.mail}}</a></p>
+                        <p>twitter:<a href="http://twitter.com/{{author.twitter}}">twitter.com/{{author.twitter}}</a></p>
                     </section>
                     <section>
-                        <!-- Feedsky FEED发布代码开始 -->
-                        <!-- FEED自动发现标记开始 -->
-                        <link title="RSS 2.0" type="application/rss+xml" href="http://feed.feedsky.com/doorxp" rel="alternate">
-                        <!-- FEED自动发现标记结束 -->
-                        <a href="http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_sub_c1s17_d.gif" alt="feedsky" vspace="2" style="margin-bottom:0px"></a><br>
-                        <a href="http://www.zhuaxia.com/add_channel.php?url=http://feed.feedsky.com/doorxp">
-                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_zhuaxia.gif" alt="抓虾" vspace="2" style="margin-bottom:0px"></a><br>
-                        <a href="http://www.rojo.com/add-subscription?resource=http://feed.feedsky.com/doorxp">
-                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_rojo.gif" alt="Rojo" vspace="2" style="margin-bottom:0px"></a><br>
-                        <a href="http://fusion.google.com/add?feedurl=http://feed.feedsky.com/doorxp">
-                            <img border="0" src="http://img.feedsky.com/images/icon_subshot01_google.gif" alt="google reader" vspace="2" style="margin-bottom:0px"></a><br>
-                        <a href="http://add.my.yahoo.com/rss?url=http://feed.feedsky.com/doorxp"><img border="0" src="http://img.feedsky.com/images/icon_subshot01_yahoo.gif" alt="my yahoo" vspace="2" style="margin-bottom:0px"></a><br>
-                        <!-- Feedsky FEED发布代码结束 -->
+                      <h3>收藏<h3>
+                        <ul>
+                          <li><a href="http://blog.doorxp.com"> 我的Blog</a></li>
+                          <li><a href="http://my.csdn.net/doorxp"> 我的CSDN</a></li>
+                        </ul>
                     </section>
                     <section>
                         <h3>Categories</h3>

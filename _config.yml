@@ -4,5 +4,5 @@ auto:        true
 lsi:         false
 port: 4000
 highlighter:    true
-markdown:    redcloth
+markdown:    kramdown
 permalink:   date
