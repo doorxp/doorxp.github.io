@@ -3,6 +3,14 @@ destination: ./_site
 auto:        true
 lsi:         false
 port: 4000
-highlighter:    true
+highlighter:    Pygments
 markdown:    kramdown
 permalink:   date
+redcarpet:
+  extensions: [fenced_code_blocks]
+  render_options:
+  linenos: true
+tags:
+  highlight:
+    linenos: true
+incremental: true
