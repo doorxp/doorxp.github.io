@@ -59,7 +59,7 @@ author: doorxp
             <!-- #main content and sidebar area -->
             <div class="row">
                 <div class="col-sm-10">
-                    <article class="articlecontent">{{ content }}</article>
+                    <article class="articlecontent">{{ content | replace:"<–more–>" }}</article>
                 </div>
 
                 <div class="col-sm-2">
