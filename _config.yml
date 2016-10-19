@@ -4,6 +4,10 @@ auto:        true
 lsi:         false
 port: 4000
 highlighter:    Pygments
+highlight:
+  linenos: true
+highlight_options:
+  linenos: true
 markdown:    kramdown
 permalink:   date
 redcarpet:
