@@ -8,9 +8,6 @@ function Check3rdAV {
     }
 }
 
-$OutputEncoding = [System.Text.Encoding]::GetEncoding('GBK')
-[Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding('GBK')
-
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
     'https://raw.githubusercontent.com/doorxp/Microsoft-Activation-Scripts/refs/heads/master/MAS/All-In-One-Version-KL/MAS_AIO.cmd'
