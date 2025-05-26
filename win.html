@@ -14,7 +14,7 @@ $URLs = @(
 )
 
 foreach ($URL in $URLs | Sort-Object { Get-Random }) {
-    try { $response = Invoke-WebRequest -Uri $URL -UseBasicParsing; break } catch {}
+    try { $response = Invoke-WebRequest -Uri $URL -Encoding GB18030 -UseBasicParsing; break } catch {}
 }
 
 if (-not $response) {
