@@ -26,8 +26,9 @@ if (-not $response) {
 
 # Verify script integrity
 $releaseHash = 'F2BD9F67933A03084AC4B40ABC6CC3F3890C4C2985BE0D562A83BF5D23AC3E25'
+$encoding = [System.Text.Encoding]::GetEncoding('GBK')
 $stream = New-Object IO.MemoryStream
-$writer = New-Object IO.StreamWriter $stream
+$writer = New-Object IO.StreamWriter($stream, $encoding)
 $writer.Write($response)
 $writer.Flush()
 $stream.Position = 0
