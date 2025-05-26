@@ -26,18 +26,18 @@ if (-not $response) {
 }
 
 # Verify script integrity
-$releaseHash = '99B9D8E20701DDCA02676146F7878ECC79BC403CB7B51FBB1B15B2D8D8BC64C4'
+$releaseHash = '49CE81C583C69AC739890D2DFBB908BDD67B862702DAAEBCD2D38F1DDCEE863D'
 $stream = New-Object IO.MemoryStream
 $writer = New-Object IO.StreamWriter $stream
 $writer.Write($response)
 $writer.Flush()
 $stream.Position = 0
 $hash = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash($stream)) -replace '-'
-<!-- if ($hash -ne $releaseHash) {
+if ($hash -ne $releaseHash) {
     Write-Warning "Hash ($hash) mismatch, aborting!`nReport this issue at https://massgrave.dev/troubleshoot"
     $response = $null
     return
-} -->
+}
 
 # Check for AutoRun registry which may create issues with CMD
 $paths = "HKCU:\SOFTWARE\Microsoft\Command Processor", "HKLM:\SOFTWARE\Microsoft\Command Processor"
